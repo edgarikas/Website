@@ -1,3 +1,5 @@
+@import "./normalize.css";
+
 $color-primary: #2584ff;
 $color-secondary: #00d9ff;
 $color-accent: #ff3400;
@@ -698,6 +700,9 @@ a {
 
 .nav__brand {
   transform: translateY(5px);
+  text-decoration: underline;
+  color: white;
+  font-weight: 700;
 }
 
 @media screen and(min-width: 768px) {
@@ -861,8 +866,10 @@ a {
 
 .footer__brand > img {
   /* TODO:  Consider refactoring this and applying it to all images */
-  width: 100%;
+  width: 52%;
   max-width: 230px;
+
+  border-radius: 100px;
 }
 
 .footer__copyright {
